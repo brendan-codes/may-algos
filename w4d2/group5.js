@@ -35,7 +35,7 @@ function canPalindrome (string) {
             if(arr[i] == arr[j]) {
                 arr.splice(i,1);
                 arr.splice(j,1);
-                continue;
+                break;
             }
         }
         loopCounter--;
